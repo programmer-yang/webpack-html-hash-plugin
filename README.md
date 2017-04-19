@@ -1,4 +1,5 @@
 # Inline Hash Webpack Plugin
+Automatically replace the html link and script tags, add hash
 
 ## Getting Started
 
@@ -29,19 +30,14 @@ Step2:
 import WebpackHtmlHashPlugin from 'webpack-html-hash-plugin';
 //...
 [
-	new WebpackHtmlHashPlugin()
-]
-```
-config
-```javascript
-import WebpackHtmlHashPlugin from 'webpack-html-hash-plugin';
-//...
-[
 	new WebpackHtmlHashPlugin({
     fileName: 'test.html',
     template: 'template/test.html'
   })
 ]
+```
+* `fileName` is not requisite, default `index.html`
+* `template` is requisite, template path
 ```
 template
 ```html

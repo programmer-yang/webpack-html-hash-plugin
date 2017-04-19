@@ -1,6 +1,7 @@
 {
   "name": "webpack-html-hash-plugin",
-  "version": "0.1.2",
+  "version": "0.1.3",
+  "description": "automatically replace the html link and script tags, add hash",
   "main": "lib/index.js",
   "repository": {},
   "license": "MIT",
