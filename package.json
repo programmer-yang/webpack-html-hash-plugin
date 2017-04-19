@@ -1,8 +1,12 @@
 {
   "name": "webpack-html-hash-plugin",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "main": "lib/index.js",
   "repository": {},
   "license": "MIT",
-  "author": "Yang <liuyang.programmer@gmail.com> (https://github.com/programmer-yang)"
+  "author": "Yang <liuyang.programmer@gmail.com> (https://github.com/programmer-yang)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/programmer-yang/webpack-html-hash-plugin.git"
+  }
 }
