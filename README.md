@@ -29,16 +29,17 @@ Step2:
 ```javascript
 import WebpackHtmlHashPlugin from 'webpack-html-hash-plugin';
 //...
-[
-	new WebpackHtmlHashPlugin({
+plugins: {
+  new WebpackHtmlHashPlugin({
     fileName: 'test.html',
     template: 'template/test.html'
   })
-]
+}
+
 ```
-* `fileName` is not requisite, default `index.html`
-* `template` is requisite, template path
-```
+* `fileName` is not requisite, default `index.html`  
+* `template` is requisite, template path  
+
 template
 ```html
 <!DOCTYPE html>
@@ -59,6 +60,7 @@ template
 </body>
 </html>
 ```
+
 build:
 ```html
 <!DOCTYPE html>
