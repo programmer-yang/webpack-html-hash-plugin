@@ -1,6 +1,6 @@
 {
   "name": "webpack-html-hash-plugin",
-  "version": "0.1.4",
+  "version": "0.1.8",
   "description": "automatically replace the html link and script tags, add hash",
   "main": "lib/index.js",
   "repository": {},
@@ -9,5 +9,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/programmer-yang/webpack-html-hash-plugin.git"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.16"
   }
 }
